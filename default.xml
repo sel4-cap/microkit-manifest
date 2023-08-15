@@ -3,7 +3,7 @@
   <remote name="seL4" fetch="https://github.com/BreakawayConsulting"/>   
   <remote name="xilinx" fetch="https://github.com/Xilinx"/>
   
-  <project name="sel4cp.git" path="sel4cp" remote="sel4-cap" revision="xhci-stub-maax" upstream="xhci-stub-maax" dest-branch="xhci-stub-maax"/>
+  <project name="sel4cp.git" path="sel4cp" remote="sel4-cap" revision="ae5bb25cc8b1c5f69970d7803e3003262dfaf08b" upstream="xhci-stub-maax" dest-branch="xhci-stub-maax"/>
   <project name="seL4.git" path="seL4" remote="seL4" revision="92f0f3ab28f00c97851512216c855f4180534a60" upstream="sel4cp-core-support" dest-branch="sel4cp-core-support"/>
   <project name="qemu.git" path="qemu" remote="xilinx" revision="master" upstream="master" dest-branch="master"/>
   <project name="qemu-devicetrees.git" path="dts" remote="xilinx" revision="master" upstream="master" dest-branch="master"/>
