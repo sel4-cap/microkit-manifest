@@ -1,6 +1,6 @@
 <manifest>
   <remote name="sel4-cap" fetch="https://github.com/sel4-cap"/>
-  <remote name="seL4" fetch="https://github.com/BreakawayConsulting"/>   
+  <remote name="seL4" fetch="https://github.com/seL4"/>   
   
   <project name="microkit.git" path="microkit" remote="sel4-cap" revision="xhci-stub-maax" upstream="xhci-stub-maax" dest-branch="xhci-stub-maax"/>
   <project name="sel4-xhci.git" path="microkit/example/maaxboard/xhci_stub" remote="sel4-cap" revision="xhci-stub-maax" upstream="xhci-stub-maax" dest-branch="xhci-stub-maax"/>
