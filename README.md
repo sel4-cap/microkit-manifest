@@ -34,7 +34,7 @@ This will extract the compiler which will need to be added to your path
 export PATH=<path-to-mk-manifest>/gcc-arm-10.2-2020.11-x86_64-aarch64-none-elf/bin:$PATH
 ```
 
-Next, build the SDK by runnim 
+Next, build the SDK by running 
 ```
 python build_sdk.py --sel4 <PATH-TO-mk-MANIFEST>/seL4
 ```
