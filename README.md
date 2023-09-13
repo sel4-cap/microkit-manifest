@@ -1,4 +1,4 @@
-# sel4cp-manifest
+# Microkit Manifest
 
 This repo contains the seL4 microkit with Capgemini-provided support for USB 3.0 (xHCI)
 
