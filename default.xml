@@ -2,7 +2,7 @@
   <remote name="sel4-cap" fetch="https://github.com/sel4-cap"/>
   <remote name="seL4" fetch="https://github.com/seL4"/>   
   
-  <project name="microkit.git" path="microkit" remote="sel4-cap" revision="xhci-stub-maax" upstream="xhci-stub-maax" dest-branch="xhci-stub-maax"/>
+  <project name="microkit.git" path="microkit" remote="sel4-cap" revision="maaxboard-support" upstream="maaxboard-support" dest-branch="maaxboard-support"/>
   <project name="sel4-xhci.git" path="microkit/example/maaxboard/xhci_stub" remote="sel4-cap" revision="xhci-stub-maax" upstream="xhci-stub-maax" dest-branch="xhci-stub-maax"/>
   <project name="netbsd.git" path="microkit/example/maaxboard/xhci_stub/netbsd/src/" remote="sel4-cap" revision="trunk" upstream="trunk" dest-branch="trunk"/>
   <project name="seL4.git" path="seL4" remote="seL4" revision="92f0f3ab28f00c97851512216c855f4180534a60" upstream="microkit" dest-branch="microkit"/>
