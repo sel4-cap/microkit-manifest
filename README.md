@@ -1,6 +1,6 @@
 # sel4cp-manifest
 
-This repo contains sel4cp (seL4 Core Platform) with Capgemini-provided support for USB 3.0 (xHCI)
+This repo contains the seL4 microkit with Capgemini-provided support for USB 3.0 (xHCI)
 
 Specifically, we have provided support for these USB devices:
 * Keyboard
@@ -16,9 +16,9 @@ To quickly get up and running with the xhci-stub-maax example for the
 maaxboard, collect the files with
 
 ```
-mkdir cp-manifest
-cd cp-manifest
-repo init -u git@github.com:sel4-cap/sel4cp-manifest.git
+mkdir mk-manifest
+cd mk-manifest
+repo init -u git@github.com:sel4-cap/microkit-manifest.git
 repo sync
 ```
 
@@ -31,12 +31,12 @@ rm -r compiler.xz
 
 This will extract the compiler which will need to be added to your path
 ```
-export PATH=<path-to-cp-manifest>/gcc-arm-10.2-2020.11-x86_64-aarch64-none-elf/bin:$PATH
+export PATH=<path-to-mk-manifest>/gcc-arm-10.2-2020.11-x86_64-aarch64-none-elf/bin:$PATH
 ```
 
-Next, build the SDK by running 
+Next, build the SDK by runnim 
 ```
-python build_sdk.py --sel4 <PATH-TO-CP-MANIFEST>/seL4
+python build_sdk.py --sel4 <PATH-TO-mk-MANIFEST>/seL4
 ```
 
 Once this is built, the xHCI driver can be built using the following command:
