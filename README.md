@@ -34,19 +34,13 @@ export PATH=<path-to-mk-manifest>/gcc-arm-10.2-2020.11-x86_64-aarch64-none-elf/b
 
 Next, build the SDK by running 
 ```
+cd mk-manifest/
 python build_sdk.py --sel4 <PATH-TO-mk-MANIFEST>/seL4
 ```
 
 Optionally, build picolibc by navigating to the picolibc folder and running
 ```
-./build-picolibc-microkit
+./build_script_microkit.sh
 ```
 
-Once this is built, the xHCI driver can be built using the following command:
-```
-python dev_build.py --board=maaxboard --example=xhci_stub
-```
-
-This will create an image in `tmp_build/loader.img` that can be loaded onto a maaxboard and run.
-
-For more information on using the driver with the api, check out the [sel4-xhci repository](https://github.com/sel4-cap/sel4-xhci/tree/api-empty)
+For information on building and using the driver with the api, use the README in [sel4-xhci repository](https://github.com/sel4-cap/sel4-xhci/tree/api-empty)
