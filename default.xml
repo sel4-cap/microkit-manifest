@@ -5,5 +5,6 @@
   <project name="microkit.git" path="microkit" remote="sel4-cap" revision="maaxboard-support" upstream="maaxboard-support" dest-branch="maaxboard-support"/>
   <project name="sel4-xhci.git" path="microkit/example/maaxboard/xhci_stub" remote="sel4-cap" revision="api-empty" upstream="api-empty" dest-branch="api-empty"/>
   <project name="netbsd.git" path="microkit/example/maaxboard/xhci_stub/netbsd/src/" remote="sel4-cap" revision="api" upstream="api" dest-branch="api"/>
+  <project name="picolibc.git" path="picolibc" remote="seL4" revision="linker_crt" upstream="linker_crt" dest-branch="linker_crt"/>
   <project name="seL4.git" path="seL4" remote="seL4" revision="92f0f3ab28f00c97851512216c855f4180534a60" upstream="microkit" dest-branch="microkit"/>
 </manifest>
