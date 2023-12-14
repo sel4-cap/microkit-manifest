@@ -7,8 +7,6 @@ Specifically, we have provided support for these USB devices:
 * Optical Mouse
 * Resistive Touch Screen (Capacitative untested but believed to also be supported)
 * USB Hub
-
-In future we intend to support the following devices:
 * Mass Storage Flash Drives
 
 ## Quickstart
