@@ -39,9 +39,16 @@ Next, build the SDK by running
 python build_sdk.py --sel4 <PATH-TO-mk-MANIFEST>/seL4
 ```
 
+Optionally, build picolibc by navigating to the picolibc folder and running
+```
+./build-picolibc-microkit
+```
+
 Once this is built, the xHCI driver can be built using the following command:
 ```
 python dev_build.py --board=maaxboard --example=xhci_stub
 ```
 
-This will create an image in `tmp_build/loader.img` that can be run.
+This will create an image in `tmp_build/loader.img` that can be loaded onto a maaxboard and run.
+
+For more information on using the driver with the api, check out the [sel4-xhci repository](https://github.com/sel4-cap/sel4-xhci/tree/api-empty)
