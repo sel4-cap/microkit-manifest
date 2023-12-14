@@ -18,7 +18,7 @@ maaxboard, collect the files with
 ```
 mkdir mk-manifest
 cd mk-manifest
-repo init -u git@github.com:sel4-cap/microkit-manifest.git
+repo init -u git@github.com:sel4-cap/microkit-manifest.git -b api-test
 repo sync
 ```
 
