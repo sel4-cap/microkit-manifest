@@ -38,9 +38,4 @@ cd microkit
 python build_sdk.py --sel4 <PATH-TO-mk-MANIFEST>/seL4
 ```
 
-Build picolibc by navigating to the picolibc folder and running
-```
-./build_script_microkit.sh
-```
-
 For information on building and using the driver with the api, use the README in [sel4-xhci repository](https://github.com/sel4-cap/sel4-xhci)
