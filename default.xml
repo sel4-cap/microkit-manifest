@@ -2,7 +2,6 @@
   <remote name="sel4-cap" fetch="https://github.com/sel4-cap"/>
   <remote name="seL4" fetch="https://github.com/seL4"/>   
   
-  <project name="microkit.git" path="microkit" remote="sel4-cap" revision="main" upstream="main" dest-branch="main"/>
   <project name="sel4-xhci.git" path="xhci-stub" remote="sel4-cap" revision="main" upstream="main" dest-branch="main"/>
   <project name="netbsd-fork.git" path="xhci-stub/netbsd/src/" remote="sel4-cap" revision="trunk" upstream="trunk" dest-branch="trunk"/>
   <project name="picolibc.git" path="picolibc" remote="sel4-cap" revision="linker_crt" upstream="linker_crt" dest-branch="linker_crt"/>
